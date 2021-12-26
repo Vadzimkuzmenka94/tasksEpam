@@ -1,5 +1,5 @@
-package user;
-import deed.Deed;
+package task1_3.user;
+import task1_3.deed.Deed;
 /*
     Класс для представления администратора
     Доп возможности:

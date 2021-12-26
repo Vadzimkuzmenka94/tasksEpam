@@ -1,7 +1,7 @@
-package user;
+package task1_3.user;
 
-import deed.Archive;
-import deed.Deed;
+import task1_3.deed.Archive;
+import task1_3.deed.Deed;
 
 import java.util.List;
 
@@ -18,7 +18,7 @@ import java.util.List;
 
 public class User {
     protected static Archive archive = new Archive();
-    private String login = "New user";
+    private String login = "New task1_1.user";
     private String password;
 
     protected User(String login, String password) {

@@ -1,9 +1,9 @@
-package server;
+package task1_3.server;
 
-import deed.Deed;
-import user.Administrator;
-import user.User;
-import user.UserFactory;
+import task1_3.deed.Deed;
+import task1_3.user.Administrator;
+import task1_3.user.User;
+import task1_3.user.UserFactory;
 
 import javax.xml.bind.*;
 import javax.xml.bind.annotation.*;
@@ -17,7 +17,7 @@ import java.util.List;
 @XmlRootElement(name = "server")
 public class Server {
     private static UserFactory factory = new UserFactory();
-    private final String deffoltPath = "F:\\Проекты\\Java\\java_online\\src\\by\\epam\\course\\application\\archive\\server\\Users.xml";
+    private final String deffoltPath = "F:\\Проекты\\Java\\java_online\\src\\by\\epam\\course\\application\\archive\\task1_1.server\\Users.xml";
     @XmlElement(name = "user")
     @XmlElementWrapper(name = "base")
     private List<User> users = new ArrayList<User>();

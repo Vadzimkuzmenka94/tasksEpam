@@ -1,4 +1,4 @@
-package deed;
+package task1_3.deed;
 
 /*
     Класс для представления студента
